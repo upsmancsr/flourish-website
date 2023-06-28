@@ -5,10 +5,9 @@ import AppRouter from './Router';
 
 const App: React.FC = () => {
     return (
-        <Router>
+          <Router>
             <Header />
-            <AppRouter />
-        </Router>
+          </Router>
     );
 };
 
